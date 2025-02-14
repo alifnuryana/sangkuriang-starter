@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', '@nuxtjs/html-validator'],
+  modules: [
+    '@nuxt/eslint',
+    '@nuxtjs/html-validator',
+    '@nuxt/ui',
+    '@nuxt/image',
+  ],
   components: {
     dirs: [],
   },
@@ -15,6 +20,7 @@ export default defineNuxtConfig({
       },
     },
   },
+  css: ['~/assets/css/main.css'],
   future: {
     compatibilityVersion: 4,
   },
@@ -26,5 +32,8 @@ export default defineNuxtConfig({
   },
   htmlValidator: {
     logLevel: 'error',
+  },
+  image: {
+    format: ['avif', 'webp'],
   },
 })

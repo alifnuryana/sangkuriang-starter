@@ -5,7 +5,7 @@ useHead({
 </script>
 
 <template>
-  <div>
+  <UApp>
     <h1>Sangkuriang Starter 🤘</h1>
-  </div>
+  </UApp>
 </template>
