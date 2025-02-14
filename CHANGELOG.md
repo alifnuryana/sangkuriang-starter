@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.1.0
+
+[compare changes](https://github.com/alifnuryana/sangkuriang-starter/compare/v1.0.1...v1.1.0)
+
+### 🚀 Enhancements
+
+- **renovate:** Integrate with renovate ([7ca6703](https://github.com/alifnuryana/sangkuriang-starter/commit/7ca6703))
+
+### 🏡 Chore
+
+- Release v1.0.1 ([398ab53](https://github.com/alifnuryana/sangkuriang-starter/commit/398ab53))
+
+### ❤️ Contributors
+
+- Alif Nuryana ([@alifnuryana](http://github.com/alifnuryana))
+
 ## v1.0.1
 
 [compare changes](https://github.com/alifnuryana/sangkuriang-starter/compare/v1.0.0...v1.0.1)
